@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="android.com.inclass03.MainActivity">
+
+   <EditText
+       android:layout_width="match_parent"
+       android:hint="@string/hint_name"
+       android:inputType="text"
+       android:textSize="@dimen/fontSize"
+       android:id="@+id/student_name"
+       android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:textSize="@dimen/fontSize"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/hint_email"
+        android:id="@+id/student_email"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/label_dept"
+        android:textSize="@dimen/fontSize"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:id="@+id/rg_dept"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="@string/sis"
+            android:textSize="@dimen/fontSize"
+            android:id="@+id/sis"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="@string/cs"
+            android:textSize="@dimen/fontSize"
+            android:id="@+id/cs"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="@string/bio"
+            android:textSize="@dimen/fontSize"
+            android:id="@+id/bio"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="@string/others"
+            android:textSize="@dimen/fontSize"
+            android:id="@+id/others"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/lbl_progressBar"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/fontSize"
+        android:layout_height="wrap_content" />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/seekbar"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:text="@string/submit"
+        android:id="@+id/btn_submit"
+        android:layout_height="wrap_content" />
+</LinearLayout>

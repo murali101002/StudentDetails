@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Main Activity</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="label_dept">Department:</string>
+    <string name="sis">SIS</string>
+    <string name="cs">CS</string>
+    <string name="bio">BIO</string>
+    <string name="others">Others</string>
+    <string name="lbl_progressBar">Your current mood:</string>
+    <string name="submit">Submit</string>
+    <string name="displayAct_title">Student Information</string>
+    <string name="lbl_name">Name:</string>
+    <string name="lbl_email">Email:</string>
+    <string name="lbl_dept">Department:</string>
+    <string name="lbl_mood">Mood:</string>
+    <string name="moodStatus">% Positive</string>
+    <string name="display_activity">Display Activity</string>
+    <string name="editAct_title">Edit Information</string>
+    <string name="save">SAVE</string>
+    <string name="edit_Activity">Edit Activity</string>
+</resources>
